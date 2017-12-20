@@ -7,7 +7,7 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <!--
-    TODO (7) Modify here and inside of SettingsActivity so that VisualizerActivity is treated
+    COMPLETED (7) Modify here and inside of SettingsActivity so that VisualizerActivity is treated
     as the parent of SettingsActivity and the up button is displayed :
     https://developer.android.com/training/implementing-navigation/ancestral.html
     Make sure to use the attribute android:launchMode singleTop
