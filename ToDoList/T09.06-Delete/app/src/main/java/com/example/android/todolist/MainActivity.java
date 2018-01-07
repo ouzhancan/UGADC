@@ -159,6 +159,15 @@ public class MainActivity extends AppCompatActivity implements
                             null,
                             TaskContract.TaskEntry.COLUMN_PRIORITY);
 
+                    // get a task with id
+                    /*
+                    return getContentResolver().query(TaskContract.TaskEntry.CONTENT_URI,
+                            null,
+                            TaskContract.TaskEntry._ID+" =?",
+                            new String[]{"1"},
+                            null);
+                            */
+
                 } catch (Exception e) {
                     Log.e(TAG, "Failed to asynchronously load data.");
                     e.printStackTrace();
